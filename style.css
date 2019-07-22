@@ -1,104 +1,254 @@
-html {
-    box-sizing: border-box;
-}
-
-*,
-*:before,
-*:after {
-    box-sizing: inherit;
-}
-
-body {
-    color: white;
-    font-family: Arial, sans-serif;
-    overflow-x: hidden;
-    margin: 0%;
-    padding: 0%;
-}
-
-header {
-    height: 5%;
-    background-color: white;
-}
-
-a {
-    text-decoration: none;
-    background-color: white;
-    text-align: center;
-    color: black;
-}
-
-section {
-    display: flex;
-    flex-direction: column;
-    margin: 0% auto;
-}
-
-.hero {
-    background-image: url(taxi.jpg);
-    background-size: cover;
-    height: 100vh;
-}
-
-.informationText {
-    background-color: #f7b617;
-    position: absolute;
-    width: 77%;
-    height: 28vh;
-    right: 0%;
-    top: 50%;
-}
-
-.col-1 {
-    width: 8.333333333333332%;
-}
-
-.col-2 {
-    width: 16.666666666666664%;
-}
-
-.col-3 {
-    width: 25%;
-}
-
-.col-4 {
-    width: 33.33333333333333%;
-}
-
-.col-5 {
-    width: 41.66666666666667%;
-}
-
-.col-6 {
-    width: 50%;
-}
-
-.col-7 {
-    width: 58.333333333333336%;
-}
-
-.col-8 {
-    width: 66.66666666666666%;
-}
-
-.col-9 {
-    width: 75%;
-}
-
-.col-10 {
-    width: 83.33333333333334%;
-}
-
-.col-11 {
-    width: 91.66666666666666%;
-}
-
-.col-12 {
-    width: 100%;
-}
-
-
-/* background-color: #f7b617; */
-
-
-/* #2b2b2b  */
+                                                html {
+                                                box-sizing: border-box;
+                                            }
+                                            
+                                            *,
+                                            *:before,
+                                            *:after {
+                                                box-sizing: inherit;
+                                            }
+                                            
+                                            body {
+                                                color: white;
+                                                font-family: Arial, sans-serif;
+                                                overflow-x: hidden;
+                                                margin: 0%;
+                                                padding: 0%;
+                                            }
+                                            
+                                            header {
+                                                height: 5%;
+                                                background-color: white;
+                                            }
+                                            
+                                            a {
+                                                text-decoration: none;
+                                                background-color: white;
+                                                text-align: center;
+                                                color: black;
+                                            }
+                                            
+                                            section {
+                                                display: flex;
+                                                flex-direction: column;
+                                                margin: 0% auto;
+                                            }
+                                            /* hero */
+                                            
+                                            .hero {
+                                                background-image: url(taxi.jpg);
+                                                background-size: cover;
+                                                height: 100vh;
+                                            }
+                                            
+                                            .informationText {
+                                                background-color: #f7b617;
+                                                position: absolute;
+                                                width: 77%;
+                                                height: 50 px;
+                                                right: 0%;
+                                                top: 50%;
+                                            }
+                                            
+                                            .mobSection h1 {
+                                                /* line-height: 2rem; */
+                                                padding: 4%;
+                                                margin: 10%;
+                                            }
+                                            
+                                            .mobSection img {
+                                                width: auto;
+                                            }
+                                            
+                                            .downloadApp {
+                                                border-radius: 10px;
+                                                content: 10%;
+                                                margin: 15%;
+                                                padding: 13 px;
+                                            }
+                                            
+                                            .menuDesktop,
+                                            .webSection,
+                                            .btnRegister,
+                                            .btnHeroWeb,
+                                            .textHero,
+                                            .boxdesktop,
+                                            .listDesktop {
+                                                display: none;
+                                            }
+                                            /* information */
+                                            
+                                            .information {
+                                                background-color: #f7b617;
+                                                height: 85vh;
+                                            }
+                                            
+                                            .informationRow {
+                                                margin: 4%;
+                                                padding: 5%;
+                                                padding-top: 13%;
+                                                border: white 1px solid;
+                                                width: 91%;
+                                                height: 95vh;
+                                            }
+                                            
+                                            .boxWeb img {
+                                                width: 80%;
+                                                display: block;
+                                                margin: auto;
+                                            }
+                                            
+                                            .outsideText {
+                                                padding-left: 4%;
+                                                font-size: 1rem;
+                                            }
+                                            
+                                            .driver {
+                                                background-image: url(conduce.jpg);
+                                                background-size: cover;
+                                                height: 36vh;
+                                            }
+                                            
+                                            .boxDriver {
+                                                width: 100%;
+                                                height: 100%;
+                                                background-color: #000000;
+                                                padding: 1rem;
+                                                align-items: center;
+                                                justify-content: flex-end;
+                                            }
+                                            
+                                            .boxDriver h3 {
+                                                font-size: 1rem;
+                                            }
+                                            
+                                            .btnDriver {
+                                                background-color: #f7b617;
+                                                color: white;
+                                                display: inline-table;
+                                                position: absolute;
+                                                padding: 0.8rem;
+                                                border-radius: 10px;
+                                                margin-left: -1%;
+                                                margin-top: 1%;
+                                                font-size: small;
+                                            }
+                                            
+                                            .btnDriver {
+                                                background-color: #f7b617;
+                                                color: white;
+                                                display: inline-table;
+                                                position: absolute;
+                                                padding: 0.8rem;
+                                                border-radius: 10px;
+                                                margin-left: -1%;
+                                                margin-top: 1%;
+                                                font-size: small;
+                                            }
+                                            
+                                            .rate {
+                                                background-color: #f7b617;
+                                                height: 85vh;
+                                            }
+                                            
+                                            .rater {
+                                                padding: 3rem;
+                                                display: block;
+                                            }
+                                            
+                                            .rateBox label {
+                                                margin: 2rem 0;
+                                                display: block;
+                                            }
+                                            
+                                            .rateBox input {
+                                                margin-left: 1rem;
+                                                height: 3rem;
+                                                width: 60vw;
+                                                color: white;
+                                                background-color: #F7B617;
+                                                border-color: white;
+                                                border-style: solid;
+                                                border-width: 0.1rem;
+                                                border-radius: 0.8rem;
+                                                padding-left: 1rem;
+                                            }
+                                            
+                                            footer {
+                                                background-color: #2b2b2b;
+                                                display: flex;
+                                            }
+                                            
+                                            .footerall {
+                                                width: 80vw;
+                                                height: 85vh;
+                                            }
+                                            
+                                            .footerone img {
+                                                width: 50%;
+                                            }
+                                            
+                                            .listMobile ul {
+                                                padding: 10px;
+                                                line-height: 2.5 rem;
+                                                text-align: left;
+                                            }
+                                            
+                                            .app {
+                                                top: 50%;
+                                            }
+                                            
+                                            .app {
+                                                align-content: center;
+                                            }
+                                            
+                                            @media (min-width:768px) {
+                                                nav {
+                                                    position: relative;
+                                                }
+                                                .menu {
+                                                    display: none;
+                                                }
+                                                .menuDesktop {
+                                                    display: block;
+                                                    position: absolute;
+                                                    right: 0;
+                                                    padding: 0.5rem 0;
+                                                    margin: -2rem 0;
+                                                }
+                                                .col-1 {
+                                                    width: 8.333333333333332%;
+                                                }
+                                                .col-2 {
+                                                    width: 16.666666666666664%;
+                                                }
+                                                .col-3 {
+                                                    width: 25%;
+                                                }
+                                                .col-4 {
+                                                    width: 33.33333333333333%;
+                                                }
+                                                .col-5 {
+                                                    width: 41.66666666666667%;
+                                                }
+                                                .col-6 {
+                                                    width: 50%;
+                                                }
+                                                .col-7 {
+                                                    width: 58.333333333333336%;
+                                                }
+                                                .col-8 {
+                                                    width: 66.66666666666666%;
+                                                }
+                                                .col-9 {
+                                                    width: 75%;
+                                                }
+                                                .col-10 {
+                                                    width: 83.33333333333334%;
+                                                }
+                                                .col-11 {
+                                                    width: 91.66666666666666%;
+                                                }
+                                                .col-12 {
+                                                    width: 100%;
+                                                }
